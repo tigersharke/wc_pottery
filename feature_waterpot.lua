@@ -54,6 +54,7 @@ local function register_waterpot(material, desc, texture)
 			glazaqua
 		},
 		use_texture_alpha = "blend",
+		backface_culling = false,
 		selection_box = nodecore.fixedbox(),
 		collision_box = nodecore.fixedbox(),
 		groups = {
